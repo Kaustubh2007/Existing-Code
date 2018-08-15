@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Create a new case using maps",
+        "description": "",
+        "id": "free-crm-create-case-feature;create-a-new-case-using-maps",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11796547449,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is already on Free CRM Login Page",
+            "match": {
+              "location": "CreateCase.user_is_already_on_Free_CRM_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 261978042,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username \u0026 password",
+            "match": {
+              "location": "CreateCase.user_enters_username_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "kaustubhk",
+                  "test@456"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21605225349,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User logs into the application",
+            "match": {
+              "location": "CreateCase.user_logs_into_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18306857,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User lands on Free CRM login page",
+            "match": {
+              "location": "CreateCase.user_lands_on_Free_CRM_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10353293659,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to create New Case page",
+            "match": {
+              "location": "CreateCase.user_navigates_to_create_New_Case_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11828224551,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters case details as title \u0026 identifier \u0026 contact",
+            "match": {
+              "location": "CreateCase.user_enters_case_details_as_title_identifier_contact(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "title",
+                  "identifier",
+                  "contact"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Case1",
+                  "I1",
+                  "123456"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3105370580,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User logs out of the CRM application",
+            "match": {
+              "location": "CreateCase.user_logs_out_of_the_CRM_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 657927665,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User quites the browser",
+            "match": {
+              "location": "CreateCase.user_quites_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM create case feature",
+    "description": "",
+    "id": "free-crm-create-case-feature",
+    "keyword": "Feature",
+    "uri": "D:/Oxygen/com.cucumber.freecrm1.framework/src/main/java/features/createcase.feature"
+  }
+]

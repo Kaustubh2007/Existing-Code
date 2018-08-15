@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="59.626874">
+<testcase classname="Free CRM create case feature" name="Create a new case using maps" time="59.626874">
+<system-out><![CDATA[Given User is already on Free CRM Login Page................................passed
+When User enters username & password........................................passed
+Then User logs into the application.........................................passed
+And User lands on Free CRM login page.......................................passed
+Then User navigates to create New Case page.................................passed
+And User enters case details as title & identifier & contact................passed
+Then User logs out of the CRM application...................................passed
+Then User quites the browser................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
